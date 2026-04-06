@@ -1,0 +1,13 @@
+[package]
+name = "rustblocks"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+x11 = { version = "2.3", features = ["xlib"] }
+signal-hook = "0.3"
+libc = "0.2"
+
+[[bin]]
+name = "rustblocks"
+path = "main.rs"
